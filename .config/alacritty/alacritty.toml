@@ -1,0 +1,30 @@
+# links
+# Alacritty: https://alacritty.org/config-alacritty.html
+# 
+# Alacritty's configuration file uses the TOML format.
+# The format's specification can be found at https://toml.io/en/v1.1.0.
+
+[colors.selection]
+text = "#333333" 
+background = "#15D855"
+
+[colors.primary]
+background = '#1e1e2e'
+
+[window]
+opacity = 0.5
+blur = true
+padding.x = 10
+padding.y = 10
+
+[font]
+size = 16
+
+[cursor]
+blink_interval = 350
+
+[cursor.style]
+blinking = "On"
+
+[mouse]
+hide_when_typing = true
