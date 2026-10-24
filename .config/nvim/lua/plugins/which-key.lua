@@ -6,6 +6,7 @@ return {
       { "<leader>f", group = "Find" },
       { "<leader>p", group = "Project" },
       { "<leader>c", group = "Code" },
+      { "<leader>d", group = "Diagnostics" },
     },
   },
 }

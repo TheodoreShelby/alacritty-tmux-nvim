@@ -1,5 +1,10 @@
--- automatically inserts and closes matching punctuation pairs while you type in insert mode
 return {
   "windwp/nvim-autopairs",
   event = "InsertEnter",
+  config = function()
+    require("nvim-autopairs").setup({
+      check_ts = true,
+      disable_filetype = { "TelescopePrompt" },
+    })
+  end,
 }

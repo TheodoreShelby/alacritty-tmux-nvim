@@ -16,3 +16,8 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.updatetime = 250
 vim.opt.splitright = true
 vim.opt.splitbelow = true
+
+vim.diagnostic.config({
+  virtual_text = true,
+  float = { border = "rounded" },
+})
